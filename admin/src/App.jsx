@@ -6,7 +6,7 @@ import Orders from './pages/Orders/Orders'
 import { useRoutes } from 'react-router'
 import { ToastContainer } from 'react-toastify';
 
-  const baseUrl = 'http://localhost:4000';
+  const baseUrl = 'https://food-delivery-backend-8fuv.onrender.com';
 
 const routes = [
   {
