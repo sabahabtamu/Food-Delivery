@@ -7,7 +7,7 @@ export const StoreContext = createContext(null);
 const StoreContextPrivider = (props) => {
 
     const [cartItems, setCartItems] = useState({});
-    const url = 'http://localhost:4000';
+    const url = 'https://food-delivery-backend-8fuv.onrender.com';
     const [token, setToken] = useState('');
     const [foods, setFoods] = useState([]);
 
@@ -85,5 +85,6 @@ const StoreContextPrivider = (props) => {
         </StoreContext.Provider>
     )
 }
+
 
 export default StoreContextPrivider;
