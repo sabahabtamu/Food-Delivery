@@ -9,7 +9,7 @@ const foodRouter = express.Router();
 
 // Correct GridFS Storage Engine
 const storage = new GridFsStorage({
-  url: process.env.atlas_url,
+  url: process.env.ATLAS_URL,
   file: (req, file) => {
     // This promise is handled automatically
     const filename = `${Date.now()}${path.extname(file.originalname)}`;
