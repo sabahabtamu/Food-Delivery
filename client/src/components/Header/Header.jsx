@@ -1,4 +1,5 @@
 import './Header.css'
+import headerImage from '../../assets/header_img.png'
 
 const Header = () => {
   return (
@@ -13,4 +14,5 @@ const Header = () => {
 }
 
 export default Header
+
 
